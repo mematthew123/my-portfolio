@@ -1,5 +1,7 @@
 "use client";
 
+// this is a context that keeps track of which section is currently active and hiughlights the corresponding link in the navbar
+
 import type { SectionName } from "@/lib/types";
 import React, { useState, createContext, useContext } from "react";
 
