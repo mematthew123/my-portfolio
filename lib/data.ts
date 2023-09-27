@@ -71,6 +71,7 @@ export const projectsData = [
       'JWT',
     ],
     imageUrl: kootsImg,
+    liveLink: 'https://kootenaiorganics.com',
   },
   {
     title: 'Hufford Homestead',
@@ -78,6 +79,7 @@ export const projectsData = [
       ' A D2C (Direct to Consumer) site for a local orgainc farm. Built using Nextjs and Sanity CMS.',
     tags: ['Javascript', 'Next.js', 'Tailwind', 'Sanity', 'Vercel Analytics'],
     imageUrl: huffordImg,
+    liveLink: 'https://huffordhomestead.com',
   },
   {
     title: 'Zephyr Pixels',
@@ -85,6 +87,7 @@ export const projectsData = [
       ' Marketing site for web development agency looking to help small businesses and attract new clients.',
     tags: ['Astro', 'Tailwind', 'FormSpree'],
     imageUrl: zephyrImg,
+    liveLink: 'https://zephyrpixels.dev',
   },
   {
     title: 'McKay Painting',
@@ -92,6 +95,7 @@ export const projectsData = [
       ' A website for a local Painting Company built using Jeckyll and Decap CMS.',
     tags: ['Jeckyll', 'Decap CMS', 'scss', 'a11y'],
     imageUrl: mckayImg,
+    liveLink: 'https://mckaypainting.us',
   },
   {
     title: 'Buzz Co.',
@@ -99,6 +103,7 @@ export const projectsData = [
       'The prototype for what would go onto become Kootenai Organics. Instead of Integrating with IndicaOnline, it uses a custom built cart and checkout system.',
     tags: ['Next.js', 'Tailwind', 'Petfinder API', 'TypeScript', 'Twillio'],
     imageUrl: buzzImg,
+    liveLink: 'https://buzzco.vercel.app',
   },
 
   {
@@ -107,5 +112,6 @@ export const projectsData = [
       'Utlizing the Petfinder API, I built a site to help rehome animals in Western Montana. Custom hook to keep token fresh, and implemtned Clerk for auth.',
     tags: ['Next.js', 'Tailwind', 'Petfinder API', 'TypeScript', 'Clerk'],
     imageUrl: adoptImg,
+    liveLink: 'https://www.adoptmt.org',
   },
 ] as const;
