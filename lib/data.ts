@@ -4,6 +4,7 @@ import mckayImg from '/public/mckay.png';
 import zephyrImg from '/public/zephyr.png';
 import adoptImg from '/public/adopt.png';
 import buzzImg from '/public/buzz.png';
+import shopifyImg from '/public/shopify.png';
 
 export const links = [
   {
@@ -56,19 +57,15 @@ export const projectsData = [
   {
     title: 'Kootenai Organics',
     description:
-      'I built this PWA (Progressive Web App) with offline usage for a local Dispensary. It uses Sanity as a headless CMS for content and Auth. Next.js and Tailwind for the front-end. There are integrations IndicaOnline, Resend, and Google Maps.',
+      ' PWA (Progressive Web App) with offline usage for a local Dispensary. Built using Nextjs and Sanity CMS.',
 
     tags: [
       'Next.js',
       'Sanity',
       'Tailwind',
-      'IndicaOnline',
       'Resend',
-      'Google Maps',
       'TypeScript',
       'Framer Motion',
-      'PWA',
-      'JWT',
     ],
     imageUrl: kootsImg,
     liveLink: 'https://kootenaiorganics.com',
@@ -76,7 +73,7 @@ export const projectsData = [
   {
     title: 'Hufford Homestead',
     description:
-      ' A D2C (Direct to Consumer) site for a local orgainc farm. Built using Nextjs and Sanity CMS.',
+      ' A D2C (Direct to Consumer) site for a local organic farm. Built using Nextjs and Sanity CMS.',
     tags: ['Javascript', 'Next.js', 'Tailwind', 'Sanity', 'Vercel Analytics'],
     imageUrl: huffordImg,
     liveLink: 'https://huffordhomestead.com',
@@ -90,9 +87,17 @@ export const projectsData = [
     liveLink: 'https://zephyrpixels.dev',
   },
   {
+    title: 'Headless Shopify Template',
+    description:
+      'Easy to spin up template for a headless Shopify site. Built using Nextjs and Tailwind.',
+    tags: ['Next.js', 'Tailwind', 'Shopify', 'Javascript'],
+    imageUrl: shopifyImg,
+    liveLink: 'https://nextapp-2-one.vercel.app/',
+  },
+  {
     title: 'McKay Painting',
     description:
-      ' A website for a local Painting Company built using Jeckyll and Decap CMS.',
+      'A website for a local home Painting Company built using Jeckyll and Decap CMS.',
     tags: ['Jeckyll', 'Decap CMS', 'scss', 'a11y'],
     imageUrl: mckayImg,
     liveLink: 'https://mckaypainting.us',
@@ -100,16 +105,16 @@ export const projectsData = [
   {
     title: 'Buzz Co.',
     description:
-      'The prototype for what would go onto become Kootenai Organics. Instead of Integrating with IndicaOnline, it uses a custom built cart and checkout system.',
+      'The prototype for what would go onto become Kootenai Organics. It uses a custom built cart and checkout system.',
     tags: ['Next.js', 'Tailwind', 'Petfinder API', 'TypeScript', 'Twillio'],
     imageUrl: buzzImg,
-    liveLink: 'https://buzzco.vercel.app',
+    liveLink: 'https://buzz-mu.vercel.app/',
   },
 
   {
     title: 'Adopt MT',
     description:
-      'Utlizing the Petfinder API, I built a site to help rehome animals in Western Montana. Custom hook to keep token fresh, and implemtned Clerk for auth.',
+      'Utlizing the Petfinder API, I built a site to help rehome animals in Western Montana. Custom hooks and Clerk for authentication.',
     tags: ['Next.js', 'Tailwind', 'Petfinder API', 'TypeScript', 'Clerk'],
     imageUrl: adoptImg,
     liveLink: 'https://www.adoptmt.org',
