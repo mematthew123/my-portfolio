@@ -98,7 +98,7 @@ export const projectsData = [
     title: 'McKay Painting',
     description:
       'A website for a local home Painting Company built using Jeckyll and Decap CMS.',
-    tags: ['Jeckyll', 'Decap CMS', 'scss', 'a11y'],
+    tags: ['11ty', 'Decap CMS', 'scss', 'a11y'],
     imageUrl: mckayImg,
     liveLink: 'https://mckaypainting.us',
   },
@@ -106,7 +106,7 @@ export const projectsData = [
     title: 'Buzz Co.',
     description:
       'The prototype for what would go onto become Kootenai Organics. It uses a custom built cart and checkout system.',
-    tags: ['Next.js', 'Tailwind', 'Petfinder API', 'TypeScript', 'Twillio'],
+    tags: ['Next.js', 'Tailwind', 'TypeScript', 'Twillio'],
     imageUrl: buzzImg,
     liveLink: 'https://buzz-mu.vercel.app/',
   },

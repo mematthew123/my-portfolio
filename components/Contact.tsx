@@ -5,15 +5,6 @@ import SectionHeading from './SectionHeading';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
 
-const SubmitBtn = () => (
-  <button
-    className='h-14 bg-black text-white text-lg font-semibold rounded-lg hover:bg-gray-900 transition-all dark:bg-white dark:bg-opacity-80 dark:hover:bg-opacity-100 dark:text-black dark:hover:text-white'
-    type='submit'
-  >
-    Send
-  </button>
-);
-
 export default function Contact() {
   const { ref } = useSectionInView('Contact');
 
@@ -40,33 +31,13 @@ export default function Contact() {
       <p className='text-gray-700 -mt-6 dark:text-white/80'>
         Please contact me directly at{' '}
         <a className='underline' href='mailto:mematthew123@icloud.com'>
-          mematthew123@icloud.com
-        </a>{' '}
-        or through this form.
+          mematthew123@icloud.com{''}
+        </a>
+        {''} or
+        <a className='underline' href='phone:1-406-402-7769'>
+          {''} 406 402 7769
+        </a>
       </p>
-
-      <form
-        className='mt-10 flex flex-col dark:text-black'
-        action=''
-        method='POST'
-      >
-        <input
-          className='h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
-          name='name'
-          type='email'
-          required
-          maxLength={500}
-          placeholder='Your email'
-        />
-        <textarea
-          className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
-          name='message'
-          placeholder='Your message'
-          required
-          maxLength={5000}
-        />
-        <SubmitBtn />
-      </form>
     </motion.section>
   );
 }

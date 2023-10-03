@@ -56,6 +56,16 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {liveLink && (
+            <Link href={liveLink} passHref>
+              <p
+                className='absolute bottom-4 right-5 text-sm font-semibold text-blue-600 hover:underline'
+                rel='noopener noreferrer'
+              >
+                Live
+              </p>
+            </Link>
+          )}
         </div>
 
         {/* 
