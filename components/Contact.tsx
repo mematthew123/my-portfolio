@@ -4,6 +4,7 @@ import React from 'react';
 import SectionHeading from './SectionHeading';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
+import Cal from './Cal';
 
 export default function Contact() {
   const { ref } = useSectionInView('Contact');
@@ -27,17 +28,17 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-
       <p className='text-gray-700 -mt-6 dark:text-white/80'>
-        Please contact me directly at{' '}
-        <a className='underline' href='mailto:mematthew123@icloud.com'>
-          mematthew123@icloud.com{''}
-        </a>
-        {''} or
-        <a className='underline' href='phone:1-406-402-7769'>
-          {''} 406 402 7769
-        </a>
+        Schedule a meeting
       </p>
+      <Cal />
+      <a className='underline' href='mailto:mematthew123@icloud.com'>
+        mematthew123@gmail.com{''}
+      </a>
+      {''} ||{' '}
+      <a className='underline' href='phone:1-406-402-7769'>
+        {''} 406 402 7769
+      </a>
     </motion.section>
   );
 }

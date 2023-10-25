@@ -43,7 +43,7 @@ export default function About() {
         When not learning new skills or working on current projects I enjoy
         skiing, hiking, and volunteering with the{' '}
         <a
-          href='https://www.missoulacounty.us/government/health/animal-control/animal-shelter'
+          href='https://www.missoulacounty.us/government/health/health-department/animal-control/adoptable-animals'
           target='_blank'
           rel='noopener noreferrer'
           className='text-blue-500 underline'
