@@ -27,17 +27,19 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
-      <p className='text-gray-700 -mt-6 dark:text-white/80'>
-        Schedule a meeting
-      </p>
-      <Cal />
-      <a className='underline' href='mailto:mematthew123@icloud.com'>
-        mematthew123@gmail.com{''}
+      <SectionHeading>Contact</SectionHeading>
+      <div>
+        <Cal />
+      </div>
+      <a
+        className='underline mr-10 text-xl'
+        href='mailto:mematthew123@icloud.com'
+      >
+        Email{''}
       </a>
       {''} ||{' '}
-      <a className='underline' href='phone:1-406-402-7769'>
-        {''} 406 402 7769
+      <a className='underline ml-10 text-xl ' href='phone:1-406-402-7769'>
+        {''} Call
       </a>
     </motion.section>
   );
